@@ -1,0 +1,55 @@
+{
+  "homeschool": [
+    {"name": "Kerry McDonald (Forbes)", "url": "https://www.forbes.com/sites/kerrymcdonald/feed/", "tier": 1},
+    {"name": "Fab Fridays", "url": "https://newsletter.afabrega.com/feed/", "tier": 1},
+    {"name": "Let Grow", "url": "https://letgrow.org/feed/", "tier": 1},
+    {"name": "Michael B. Horn", "url": "https://michaelbhorn.substack.com/feed", "tier": 1},
+    {"name": "Homeschool Better Together", "url": "https://pambarnhill.com/feed/", "tier": 1},
+    {"name": "EdChoice", "url": "https://www.edchoice.org/feed/", "tier": 2},
+    {"name": "The 74 Million", "url": "https://the74million.org/feed", "tier": 2},
+
+    {"name": "Getting Smart", "url": "https://www.gettingsmart.com/feed/", "tier": 2},
+    {"name": "EdSurge", "url": "https://www.edsurge.com/articles_rss", "tier": 2},
+    {"name": "Rick Hess (AEI)", "url": "https://www.aei.org/profile/frederick-m-hess/feed/", "tier": 2},
+    {"name": "NHERI", "url": "https://nheri.org/feed/", "tier": 2},
+    {"name": "1000 Hours Outside", "url": "https://www.1000hoursoutside.com/blog?format=rss", "tier": 2},
+    {"name": "ClarifiEd", "url": "https://www.clarified.life/feed", "tier": 2},
+
+    {"name": "Simply Charlotte Mason", "url": "http://simplycharlottemason.com/feed/", "tier": 3},
+    {"name": "Christy-Faith", "url": "https://christy-faith.com/feed/", "tier": 3},
+    {"name": "Days With Grey", "url": "https://dayswithgrey.com/feed/", "tier": 3},
+    {"name": "Simple Homeschool", "url": "http://feeds.feedburner.com/simplehomeschool", "tier": 3},
+    {"name": "The Natural Homeschool", "url": "http://www.thenaturalhomeschool.com/feed", "tier": 3},
+    {"name": "Weird Unsocialized Homeschoolers", "url": "http://www.weirdunsocializedhomeschoolers.com/feed/", "tier": 3},
+    {"name": "Raising Lifelong Learners", "url": "https://raisinglifelonglearners.com/feed/", "tier": 3},
+    {"name": "A Humble Place", "url": "http://ahumbleplace.com/feed/", "tier": 3},
+    {"name": "Home-Centered Learning", "url": "https://www.homecenteredlearning.com/blog?format=rss", "tier": 3},
+    {"name": "Homeschool Better Together", "url": "http://feeds.feedburner.com/EverydaySnapshots", "tier": 3},
+    {"name": "Homegrown Learners", "url": "http://www.homegrownlearners.com/home/atom.xml", "tier": 3},
+    {"name": "Humility and Doxology", "url": "https://humilityanddoxology.com/feed/", "tier": 3},
+    {"name": "Withyweather", "url": "https://withyweather.substack.com/feed", "tier": 3},
+    {"name": "Peter Gray (Play Makes Us Human)", "url": "https://petergray.substack.com/feed", "tier": 2},
+    {"name": "Coach Meg Thomas (KTN)", "url": "https://kill-the-newsletter.com/feeds/hdjun97v4s6zfog1mp3e.xml", "tier": 3},
+
+    {"name": "Ed3 World", "url": "https://ed3world.substack.com/feed", "tier": 4},
+    {"name": "Austin Scholar", "url": "https://austinscholar.substack.com/feed", "tier": 4},
+
+    {"name": "Future of Education Podcast", "url": "https://futureofeducationpod.com/feed/", "tier": 5},
+    {"name": "Hannah Frankman (YT)", "url": "https://www.youtube.com/feeds/videos.xml?channel_id=UCJc7RzwJ0tIvPPMAM3iHZGQ", "tier": 5},
+    {"name": "NREA Podcast", "url": "https://feeds.simplecast.com/vLBlb6gi", "tier": 5},
+
+    {"name": "r/homeschool", "url": "https://www.reddit.com/r/homeschool/.rss", "tier": 3},
+
+    {"name": "Google: homeschooling news", "url": "https://news.google.com/rss/search?q=homeschooling%20news&hl=en-US&gl=US&ceid=US:en", "tier": 6},
+    {"name": "Google: microschool", "url": "https://news.google.com/rss/search?q=microschool&hl=en-US&gl=US&ceid=US:en", "tier": 6},
+    {"name": "Google: hybrid homeschool", "url": "https://news.google.com/rss/search?q=hybrid%20homeschool&hl=en-US&gl=US&ceid=US:en", "tier": 6},
+    {"name": "Google: learning pod", "url": "https://news.google.com/rss/search?q=learning%20pod&hl=en-US&gl=US&ceid=US:en", "tier": 6},
+    {"name": "Google: unschooling", "url": "https://news.google.com/rss/search?q=unschooling&hl=en-US&gl=US&ceid=US:en", "tier": 6}
+  ],
+
+  "ktn_feeds": [
+    {"name": "Coach Meg Thomas", "url": "https://kill-the-newsletter.com/feeds/hdjun97v4s6zfog1mp3e.xml", "tier": 3, "email": "hdjun97v4s6zfog1mp3e@kill-the-newsletter.com", "subscribed": true, "category": "homeschool"},
+    {"name": "Justin Welsh - Saturday Solopreneur", "url": "https://kill-the-newsletter.com/feeds/rdq330sjnf5o71f6hul6.xml", "tier": 1, "email": "rdq330sjnf5o71f6hul6@kill-the-newsletter.com", "subscribed": true, "category": "creator"},
+    {"name": "Creator Hooks", "url": "https://kill-the-newsletter.com/feeds/h9s4afhfl1h6qq3dwi97.xml", "tier": 1, "email": "h9s4afhfl1h6qq3dwi97@kill-the-newsletter.com", "subscribed": true, "category": "creator"}
+  ]
+}
