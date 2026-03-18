@@ -1,0 +1,48 @@
+{
+  "skill_name": "niche-scout",
+  "evals": [
+    {
+      "id": 1,
+      "prompt": "Run niche-scout on 'positive affirmations' — I want to know if this is a viable KDP niche for a self-help book",
+      "expected_output": "A structured niche report with keyword volume table, BSR table for top 10 books, Dollwet benchmark scorecard, estimated daily sales, competition signals, series potential assessment, and a clear VIABLE/BORDERLINE/TOO COMPETITIVE/DEAD verdict",
+      "files": [],
+      "expectations": [
+        "The output includes a keyword volume table with Amazon search volume for 'positive affirmations' and related keywords",
+        "The output includes a BSR table showing at least 5 books with their Best Seller Rank, title, and publisher",
+        "The output includes a scorecard evaluating all four Dollwet benchmarks: books under 5K BSR, books under 30K BSR, books under 100K BSR, and self-published presence",
+        "The output includes a clear verdict (VIABLE, BORDERLINE, TOO COMPETITIVE, or DEAD)",
+        "The skill ran the keyword-volume.py script to get DataForSEO data",
+        "The skill ran the bsr-scraper.py script to get Amazon BSR data",
+        "The output identifies at least one self-published book in the top results",
+        "The output includes series potential assessment with related keyword suggestions"
+      ]
+    },
+    {
+      "id": 2,
+      "prompt": "niche-scout 'beekeeping for beginners' — considering this for a how-to book series",
+      "expected_output": "Full niche analysis with keyword volume, BSR breakdown, and series potential. Should identify whether this niche has room for self-published authors and suggest related keywords for a book series.",
+      "files": [],
+      "expectations": [
+        "The output includes Amazon keyword volume data from DataForSEO",
+        "The output includes BSR data for top-ranking books",
+        "The output applies the Dollwet scoring benchmarks and produces a scorecard",
+        "The output assesses series potential with at least 3 related keyword suggestions",
+        "The output classifies the niche as hot, evergreen, or seasonal",
+        "The output includes a clear final verdict"
+      ]
+    },
+    {
+      "id": 3,
+      "prompt": "Check if 'intermittent fasting' is worth publishing in on KDP. I know it's probably competitive but I want the data.",
+      "expected_output": "Niche analysis that honestly assesses a likely competitive niche. Should show high-BSR incumbents, traditional publishers dominating, and give a realistic verdict rather than sugarcoating.",
+      "files": [],
+      "expectations": [
+        "The output runs both keyword volume and BSR analysis scripts",
+        "The output identifies traditional publishers in the top results (not just self-published)",
+        "The output flags competition concerns if multiple books have BSR under 5,000",
+        "The output provides an honest verdict reflecting the competitive reality",
+        "The output still identifies any opportunities even in a competitive niche (e.g., sub-niches, underserved formats)"
+      ]
+    }
+  ]
+}
