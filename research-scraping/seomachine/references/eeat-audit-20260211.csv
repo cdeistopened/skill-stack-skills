@@ -1,0 +1,19 @@
+E-E-A-T Checklist and Page Types: OpenEd ,,,,,
+Category,Page Type,Purpose,Optimization Notes,Relevant OpenEd Page ,Action 
+Entity definition & identity,About / Mission / Vision,"Defines purpose, values, and long-term focus","Use precise industry terms, founding year, and leadership info",https://opened.co/our-story,
+Entity definition & identity,Leadership / Team,Anchors brand to real people and expertise,"Include bios with credentials, social links, authored content",https://opened.co/our-story ,new page opp 
+Entity definition & identity,Company History / Timeline,Establishes credibility and continuity,"Add milestones, founding dates, acquisitions, partnerships",https://opened.co/our-story,new page opp 
+Product & service understanding,Product Overview & Use Cases,Explains what the product does and who it's for,Clear product and process definitions for Google and LLMs,https://opened.co/how-it-works,
+Product & service understanding,Integrations / Partnerships,Defines external relationships and interoperability,"Include partner logos, mutual backlinks, API documentation",https://opened.co/tools,new page opp 
+Product & service understanding,Product Taxonomy / Glossary,Clarifies internal terminology,Helps LLMs map internal language to industry semantics,https://opened.co/open-education,
+Product & service understanding,"Comparison / ""vs."" Pages",Explains factual differentiators vs. competitors,"Keep neutral tone, don't artificially promote own company",N/A,new page opp 
+Operational transparency & trust,Editorial Policy / Content Guidelines,Demonstrates content quality standards,"Include reviewers, update cadence, expertise verification",N/A ,new page opp 
+Operational transparency & trust,Data Privacy / Security / Compliance,Shows reliability and ethical operation,LLMs use this to evaluate trust and factual safety,https://opened.co/privacy-policy,
+Operational transparency & trust,Customer Support / Contact,Verifies real-world presence,"Include verified contact info, addresses, hours",https://opened.co/contact-us,
+Thought leadership & ecosystem context,Research / Insights / Whitepapers,Demonstrates intellectual authority,"Attribute authorship, include citations or downloadable data",https://opened.co/blog,
+Thought leadership & ecosystem context,Case Studies / Success Stories,Proves results through real examples,"Include outcomes, client names (if allowed), and structured summaries",N/A ,new page opp 
+Thought leadership & ecosystem context,Industry Commentary / Glossary,Defines ambiguous concepts in your domain,Builds topical authority and referenceability,https://opened.co/blog,
+Thought leadership & ecosystem context,Events / Speaking / Press Coverage,Shows recognition and influence,Use Event / NewsArticle schema and structured metadata,N/A,new page opp 
+Human connection & differentiation,Founder's Story / Brand Manifesto,Adds narrative and authenticity,"Use personal language & explain ""why"" behind the brand",https://opened.co/our-story,
+Human connection & differentiation,Employee Features / Community Impact,Humanizes the brand & shows social proof,"Include names, initiatives, quotes, and local data",https://opened.co/community-and-clubs,new page opp 
+Human connection & differentiation,Careers / Culture,Signals real company with active hiring,Adds legitimacy & personal touch. Often used for entity verification in AI models,https://opened.co/careers,
