@@ -1,6 +1,6 @@
 # Skill Stack Skills
 
-72 production-ready Claude Code skills organized by category. Each skill is a `SKILL.md` file (with optional `references/` directory) that can be dropped into any `.claude/skills/` folder.
+73 production-ready Claude Code skills organized by category. Each skill is a `SKILL.md` file (with optional `references/` directory) that can be dropped into any `.claude/skills/` folder.
 
 ## Categories
 
@@ -48,12 +48,13 @@
 | video-script-writer | End-to-end video scriptwriting from concept to camera-ready script |
 | nano-banana-image-generator | Generate images using Gemini 3.1 Flash Image or Gemini 3 Pro Image |
 
-### social-media/ (9 skills)
+### social-media/ (10 skills)
 | Skill | Description |
 |-------|-------------|
 | text-content | Transform source content into platform-optimized social posts via framework fitting |
 | instagram-scout | Recurring content intelligence tool turning competitor research into strategy |
 | x-research | Agentic research over X/Twitter with iterative refinement |
+| hermes-tweet | Install and operate the Hermes Tweet plugin for read-first X/Twitter workflows in Hermes Agent |
 | social-content-creation | Source material to high-performing social posts using framework fitting |
 | content-repurposer | Transform source content into platform-optimized posts |
 | dude-with-sign-writer | Bold, conversational one-liners that stop scrolling |
