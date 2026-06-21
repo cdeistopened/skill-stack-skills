@@ -35,10 +35,10 @@ Run the install against the Hermes Agent virtual environment:
 ~/.hermes/hermes-agent/venv/bin/python -m pip install hermes-tweet
 ```
 
-Register the plugin inside Hermes Agent:
+Install and enable the plugin inside Hermes Agent:
 
 ```bash
-hermes plugin add hermes-tweet
+hermes plugins install Xquik-dev/hermes-tweet --enable
 ```
 
 Set `XQUIK_API_KEY` in the environment used by Hermes Agent.
