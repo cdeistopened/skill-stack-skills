@@ -16,16 +16,23 @@ description: >
 
 General-purpose agentic research over X/Twitter. Decompose any research question into targeted searches, iteratively refine, follow threads, deep-dive linked content, and synthesize into a sourced briefing.
 
-For X API details (endpoints, operators, response format): read `references/x-api.md`.
+For X API details, read `references/x-api.md`. For structured Apify routes,
+read `references/xquik-apify-actors.md`. Keep both backends available and pick
+the one that matches the user's credentials, scope, and approved spend.
 
 ## CLI Tool
 
-All commands run from this skill directory:
+The `x-search.ts` CLI is not bundled in every distribution of this catalog.
+Use it only when the current installation contains that file. Run commands from
+the resolved skill directory and provide credentials through the process
+environment:
 
 ```bash
-cd "/Users/charliedeist/Desktop/New Root Docs/OpenEd Vault/.claude/skills/x-research"
-source "/Users/charliedeist/Desktop/New Root Docs/OpenEd Vault/.env"
+cd "<path-to-x-research-skill>"
+test -f x-search.ts
 ```
+
+Do not source a project `.env` file from this skill.
 
 ### Search
 
@@ -175,16 +182,15 @@ On heartbeat, can run `watchlist check` to see if key accounts posted anything n
 ## File Structure
 
 ```
-skills/x-research/
+social-media/x-research/
 ├── SKILL.md           (this file)
-├── x-search.ts        (CLI entry point)
-├── lib/
-│   ├── api.ts         (X API wrapper: search, thread, profile, tweet)
-│   ├── cache.ts       (file-based cache, 15min TTL)
-│   └── format.ts      (Telegram + markdown formatters)
-├── data/
-│   ├── watchlist.json  (accounts to monitor)
-│   └── cache/          (auto-managed)
 └── references/
-    └── x-api.md        (X API endpoint reference)
+    ├── x-api.md        (X API endpoint reference)
+    └── xquik-apify-actors.md (structured X post and audience routes)
 ```
+
+Some installations add `x-search.ts`, `lib/`, and `data/` locally. When those
+optional files are absent, use `references/x-api.md` with `X_BEARER_TOKEN`.
+Use the Xquik Apify routes only when `APIFY_TOKEN` or `APIFY_API_TOKEN` is
+available and the paid-run gate passes. If neither backend has credentials,
+report the missing requirement instead of inventing an implementation.
