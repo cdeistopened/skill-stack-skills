@@ -190,5 +190,7 @@ social-media/x-research/
 ```
 
 Some installations add `x-search.ts`, `lib/`, and `data/` locally. When those
-optional files are absent, use the Xquik Apify routes instead of inventing the
-missing implementation.
+optional files are absent, use `references/x-api.md` with `X_BEARER_TOKEN`.
+Use the Xquik Apify routes only when `APIFY_TOKEN` or `APIFY_API_TOKEN` is
+available and the paid-run gate passes. If neither backend has credentials,
+report the missing requirement instead of inventing an implementation.

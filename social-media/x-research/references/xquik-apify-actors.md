@@ -89,6 +89,10 @@ Follower output modes are `compact`, `full`, and `raw`. Use
 `dedupeMode: "merge"` or `overlapMode: true` only for an explicit audience
 overlap task.
 
+Treat shared followers and follow relationships as non-probative signals.
+They do not prove identity, intent, endorsement, or affiliation. Never infer
+sensitive or protected traits from posts, follows, lists, or communities.
+
 ## Paid-Run Gate
 
 Before a run:
